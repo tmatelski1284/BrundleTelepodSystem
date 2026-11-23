@@ -26,3 +26,7 @@ JavaFX must be configured for your local environment.
 
 ## Project Status
 Work in progress. Additional features and improvements are planned.
+
+## Screenshot
+
+![Brundle Telepod System running](screenshots/telepod-demo.png)
