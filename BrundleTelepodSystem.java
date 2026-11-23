@@ -1,3 +1,17 @@
+/*
+ * Brundle Telepod System
+ * Author: Tom Matelski
+ *
+ * A JavaFX telepod simulation inspired by the film The Fly.
+ * Uses a terminal-style interface to accept commands for loading,
+ * unloading, scanning, teleporting, and returning simulated objects.
+ * Includes help, system status, version information, and diagnostics.
+ *
+ * Created as a personal project to practice Java, JavaFX,
+ * command processing, and interface design.
+ */
+
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.TextArea;
@@ -13,19 +27,6 @@ import javafx.animation.Timeline;
 import javafx.util.Duration;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
-
-/*
- * Brundle Telepod System
- * Author: Tom Matelski
- *
- * A JavaFX telepod simulation inspired by the film The Fly.
- * Uses a terminal-style interface to accept commands for loading,
- * unloading, scanning, teleporting, and returning simulated objects.
- * Includes help, system status, version information, and diagnostics.
- *
- * Created as a personal project to practice Java, JavaFX,
- * command processing, and interface design.
- */
 
 public class BrundleTelepodSystem extends Application {
     private boolean systemBusy = false;
