@@ -1,0 +1,31 @@
+.text-area {
+    -fx-background-color: black;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.text-area .content {
+    -fx-background-color: black;
+    -fx-background-radius: 0;
+}
+
+.text-area .scroll-bar:vertical,
+.text-area .scroll-bar:horizontal {
+    -fx-opacity: 0;
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+
+/* Hide the standard text cursor */
+.text-field {
+    -fx-display-caret: false;
+}
+
+/* Remove the default text field border */
+.text-field {
+    -fx-background-color: black;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-width: 0;
+}
+
