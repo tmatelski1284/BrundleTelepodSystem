@@ -29,4 +29,4 @@ Work in progress. Additional features and improvements are planned.
 
 ## Screenshot
 
-![Brundle Telepod System running](screenshots/telepod-demo.png)
+![Brundle Telepod System running](Screenshots/telepod-demo.png)
